@@ -1,0 +1,21 @@
+generate model from db:
+pkg manager console -> Scaffold-DbContext [ConnectionString] Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data -f
+
+
+install bootstrap,jquery:
+- npm init // from root
+- npm i bootstrap jquery ...
+- dotnet add package BuildBundleMinifier : đóng góp, tối ưu kích thước cho js css 
+=> Option 2: đóng gói -webpack
+
+- libman: quản lý lib cho bootstrap,jquery...
+
+
+========================================================
+Shared/_Layout.cshtml: 
+
+
+_ViewStart.cshtml : 
+
+_ViewImports.cshtml
+Shared/_ValidationScriptsPartial.cshtml
